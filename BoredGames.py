@@ -1260,7 +1260,7 @@ while endgame == False: #game will loop until this is true, which is when player
                 print("")
                 print("")
                 battleshipprintcoordslist()
-                inp = input("Player 1, please guess a corrdinate here: ").upper()
+                inp = input("Player 1, please guess a coordinate here: ").upper()
                 print("")
                 if inp in battleshipcoordslist and battleshipplayer2blank[battleshipcoordslist.index(inp)] == " ":
                   chosen5 = True
@@ -1284,7 +1284,7 @@ while endgame == False: #game will loop until this is true, which is when player
                 print("")
                 print("")
                 battleshipprintcoordslist()
-                inp = input("Player 2, please guess a corrdinate here: ").upper()
+                inp = input("Player 2, please guess a coordinate here: ").upper()
                 print("")
                 if inp in battleshipcoordslist and battleshipplayer1blank[battleshipcoordslist.index(inp)] == " ":
                   chosen5 = True
@@ -1323,7 +1323,7 @@ while endgame == False: #game will loop until this is true, which is when player
                 print("")
                 print("")
                 battleshipprintcoordslist()
-                inp = input("Please guess a corrdinate here: ").upper()
+                inp = input("Please guess a coordinate here: ").upper()
                 print("")
                 if inp in battleshipcoordslist and battleshipplayer2blank[battleshipcoordslist.index(inp)] == " ":
                   chosen5 = True
